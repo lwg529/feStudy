@@ -3,7 +3,7 @@ let fruits = ["apple", "banana"];
 
 //访问元素
 let first = fruits[0];
-
+console.log('fruits first item ' +first);
 //遍历一个数组
 
 fruits.forEach(function(item, index, array) {
