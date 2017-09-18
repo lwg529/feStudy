@@ -7,7 +7,7 @@ console.log('fruits first item ' +first);
 //遍历一个数组
 
 fruits.forEach(function(item, index, array) {
-  console.log(item, index);
+    console.log(item, index);
 })
 
 //添加元素到末尾

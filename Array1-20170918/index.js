@@ -1,6 +1,6 @@
 var promise = {
-  'var' : 'text',
-  'array' : [1,2,3,4]
+    'var' : 'text',
+    'array' : [1,2,3,4]
 };
 console.log('array of promise: ' + promise['array']);
 
@@ -11,7 +11,7 @@ console.log('origin length: ' + arr.length);
 arr[5] = 'mango';
 console.log('new length: ' + arr.length);
 arr.forEach((item, index, array) => {
-  console.log(item, index);
+    console.log(item, index);
 });
 
 //array 从一个类似数组或可迭代的对象中创建一个新的数组实例
@@ -46,12 +46,12 @@ var arrEntry = ["a", "b", "c"];
 var iterator = arrEntry.entries();
 
 for (let e of iterator) {
-  console.log('arrEntry: ' + e);
+    console.log('arrEntry: ' + e);
 }
 
 //every 测试数组的所有元素是不是都通过了函数的测试
 var passed = [12, 3, 5, 8, 23].every((item, index, array) => {
-  return item >= 10;
+    return item >= 10;
 });
 console.log('passed: ' + passed)
 
@@ -62,35 +62,35 @@ console.log('numbers: ' + numbers.fill(1));
 
 //filter()创建一个新数组，其包含通过所提供函数实现的测试的所有元素
 var filtered = [12, 5, 8, 130, 44].filter((item) => {
-  return item >= 10;
+    return item >= 10;
 })
 console.log(filtered);
 
 //find 返回数组中满足提供的测试函数的第一个元素的值，否则返回undefined
 var finded = [12, 3, 44, 33, 130].find((item) => {
-  return item > 40 ;
+    return item > 40 ;
 })
 console.log('find item: ' + finded);
 
 var inventory = [
-  {name: 'apples', quality: 2},
-  {name: 'banana', quality: 5},
-  {name: 'peach', quality: 7}
+    {name: 'apples', quality: 2},
+    {name: 'banana', quality: 5},
+    {name: 'peach', quality: 7}
 ];
 function findPeach(fruit) {
-  return fruit.name == "peach";
+    return fruit.name == "peach";
 }
 console.log(inventory.find(findPeach));
 
 //findIndex 返回数组中满足测试函数的第一个元素的索引，否则返回-1
 var findItemIndex = [12, 3, 44, 33, 130].findIndex((item) => {
-  return item > 40 ;
+    return item > 40 ;
 });
 console.log('find index: ' + findItemIndex);
 
 //forEach 为数组有效值执行一次callback函数，未初始化的undefined项会被跳过
 function logArrayElements (element, index, array) {
-  console.log("a[" + index + "] =" + element);
+    console.log("a[" + index + "] =" + element);
 }
 [2, 5, '', 9].forEach(logArrayElements);
 
@@ -119,7 +119,7 @@ console.log('iterator next ' + iteratorKeys.next());
 //每个元素顺序调用一次函数，包括undefined
 let mapNumbers = [1, 5, 10, 15];
 let doubles = mapNumbers.map((item) => {
-  return item * 2;
+    return item * 2;
 });
 console.log("doubles: " + doubles);
 

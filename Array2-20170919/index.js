@@ -4,12 +4,12 @@
 //params3: 正在处理元素的索引
 //params4： 调用reduce的数组
 var total = [0, 1, 2, 3, 4].reduce((sum, value) => {
-  return sum + value;
+    return sum + value;
 }, 0);
 console.log('total sum: ' + total);
 
 var flattened = [[0, 1], [2, 3], [5, 6]].reduce(function(a, b) {
-  return a.concat(b);
+    return a.concat(b);
 }, []);
 console.log('flattened array: ' + flattened);
 
@@ -30,14 +30,14 @@ console.log([1, 2, 3, 4, 5].slice(1, 3));
 
 //slice可以将一个类数组的对象转换成一个数组
 function list(){
-  return Array.prototype.slice.call(arguments);
+    return Array.prototype.slice.call(arguments);
 }
 var list1 = list(1, 2, 3);
 console.log('list1: ' + list1);
 
 //some 测试数组中某些元素是否通过提供的函数的测试
 var passed = [2, 5, 8, 1, 4].some((item, index, array) => {
-  return item >= 4;
+    return item >= 4;
 });
 console.log('passed: ' + passed);
 
@@ -49,7 +49,7 @@ console.log('fruits sort result: ' + fruits.sort());
 
 var numbersArray = [4, 2, 5, 1, 3];
 numbersArray.sort(function(a, b) {
-  return a - b;
+    return a - b;
 });
 console.log('sort array: ' + numbersArray);
 
