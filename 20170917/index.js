@@ -17,20 +17,21 @@ var newLength = fruits.push("orange");
 let last  = fruits.pop();
 
 //删除数组最前面的元素
-let first = fruits.shift();
+let firstItems = fruits.shift();
 
 //添加到数组的前面
-let newLength  = fruits.unshift("strawberry")
+let newArr  = fruits.unshift("strawberry")
 
 //找到元素的索引
 let index = fruits.indexOf("banana")
 
 //通过索引删除某个元素
+let pos = 1;
 let removedIndex = fruits.splice(pos, 1);
 
 //从某个索引开始，删除多个元素
-
-let removedItems = vegetables.splice(pos, n);
+let n = 2;
+let removedItems = fruits.splice(pos, n);
 
 //复制一个数组
 var shallowCopy = fruits.slice();
