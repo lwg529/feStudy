@@ -52,3 +52,25 @@ numbersArray.sort(function(a, b) {
   return a - b;
 });
 console.log('sort array: ' + numbersArray);
+
+//splice(start，deleteCount,items) 方法通过删除现有元素和/或添加新元素来更改一个数组的内容。
+//start：修改开始的位置 
+//deleteCount：要删除元素的个数
+//items:要添加进数组的元素
+//如果有删除元素，则返回删除元素，否则返回空数组
+var myFish = ["fish1", "fish2", "fish3"];
+myFish.splice(2, 0, "fish4"); //在2的位置插入fish4
+myFish.splice(3, 1); //从索引为3的位置删除一个元素
+
+//toLocaleString()返回一个字符串表示数组中的元素
+var numbers = 1001;
+var date = new Date();
+var myArr = [numbers, date];
+console.log("myArr: " + myArr.toLocaleString());
+
+//toString() 返回一个字符串，表示指定的数组及其元素。
+var newArr = ["one", "two", "three"];
+console.log("newArr:" + newArr.toString());
+
+//unshift将一个元素或多个元素添加到数组的开头，并返回新数组的长度
+console.log("new array: " + [1, 2, 3].unshift('a'));
