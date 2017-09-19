@@ -1,3 +1,10 @@
+/*
+ * @Author: wengai.liu 
+ * @Date: 2017-09-19 15:27:03 
+ * @Last Modified by:   wengai.liu 
+ * @Last Modified time: 2017-09-19 15:27:03 
+ */
+
 //创建数组
 let fruits = ["apple", "banana"];
 
@@ -35,6 +42,3 @@ let removedItems = fruits.splice(pos, n);
 
 //复制一个数组
 var shallowCopy = fruits.slice();
-
-
-

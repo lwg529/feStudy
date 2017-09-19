@@ -1,3 +1,10 @@
+/*
+ * @Author: wengai.liu 
+ * @Date: 2017-09-19 15:26:54 
+ * @Last Modified by:   wengai.liu 
+ * @Last Modified time: 2017-09-19 15:26:54 
+ */
+
 var promise = {
     'var' : 'text',
     'array' : [1,2,3,4]

@@ -1,3 +1,9 @@
+/*
+ * @Author: wengai.liu 
+ * @Date: 2017-09-19 15:26:41 
+ * @Last Modified by:   wengai.liu 
+ * @Last Modified time: 2017-09-19 15:26:41 
+ */
 //reduce 对累加器和数组中每个元素(从左到右)应用一个函数，将其减少为单个值
 //params1：上次调用返回的值
 //params2：正在处理的元素

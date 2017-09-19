@@ -1,3 +1,9 @@
+/*
+ * @Author: wengai.liu 
+ * @Date: 2017-09-19 15:26:23 
+ * @Last Modified by:   wengai.liu 
+ * @Last Modified time: 2017-09-19 15:26:23 
+ */
 // JSON(JavaScriptObjectNotation)是一种轻量级的数据交换格式 
 // JSON的优点:数据体积较小，解析转换简单
 // 主要有两种结构:键值对集合，值的有序列表
